@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Untitled</title>
+</head>
+<body>
+
+<style>
+.elegante
+ {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ocultar
+ {
+  display:none;
+ }
+
+.invisible
+ {
+  visibility:hidden;
+ }
+
+</style>
+
+
+
+<button onclick="aparecer1(document.getElementById('respuesta1'))">Mostrar datos</button>
+<ul id='respuesta1' class='ocultar'>
+ <li><a href='Dusuario.php'?usuario=$nombre> Ver datos personales</a></li>
+  <li> Ver datos de la instalacion</li>
+  <li>Ver datos de seguimiento</li>
+</ul>
+
+
+
+<button onclick="aparecer2(document.getElementById('respuesta2'))" >Modificar datos</button>
+<ul id='respuesta2' class='ocultar'>
+  <li>Cambiar datos personales</li>
+  <li>Cambiar datos de la instlacion</li>
+
+<script>
+function aparecer1(respuesta1)
+{
+  respuesta1.classList.toggle("ocultar");
+}
+
+function aparecer2(respuesta2)
+{
+  respuesta2.classList.toggle("ocultar");
+}
+</script>
+
+</body>
+</html>

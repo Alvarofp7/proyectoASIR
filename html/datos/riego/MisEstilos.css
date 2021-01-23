@@ -1,0 +1,22 @@
+	body{background:url("Imagenes/fondo2.jpg") repeat;}
+	#contenedor {width:80%; height:160%; margin:0 auto; padding:0; background:url("Imagenes/fondo1.jpg") repeat;
+	-moz-border-radius: 20px; -webkit-border-radius: 20px;border-radius: 20px; }
+	#cabecera {margin:0px; color:#14F175;   height:100px; text-shadow:#07894F 4px 4px 2px; 	}
+	#cabecera h1:first-letter {color:#057C39; font-size:200%; }
+	#cabecera img{float:right; height:100%; width:200px; -moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;}
+	#menu { margin:0px 20px; padding: 5px 15px; height:50px; background-color:#9966ff;    border:solid 3px #ff00cc; -moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; background:-moz-linear-gradient(left,#ccffff,#ffff99);}
+	#menu ul {text-align:center;}
+	#menu ul li {display:inline;  font-size: 20px; list-style:none; 	}
+	a {text-decoration:none; } 
+	ul a{   margin:5px; }
+	a:link, a:visited{color:red; }	
+	a:hover {font-weight:bold; font-style: italic; color:#006600	}
+	#articulo{margin:10px; padding:10px; font-size:25px; color:#14F175; float:left;}
+	#articulo img{width: 40%; height:40%; float:right;}
+	#articulo p {letter-spacing:0.5pt;}
+	#articulo h2{text-shadow:#07894F 4px 4px 2px; }
+	
