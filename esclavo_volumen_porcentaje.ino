@@ -1,4 +1,5 @@
-
+//Este codigo  es el encargado de  calcular  el  % de volumen del deposito. Se carga en el Arduino numero 2.
+// se ira explicando las partes mas importantes
 #include <Wire.h>
 
 const int Trigger = 3;   //Pin digital 2 para el Trigger del sensor
